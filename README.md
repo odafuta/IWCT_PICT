@@ -13,8 +13,8 @@
 - BOOLC (Boolean Constraints) シリーズ
     - 真偽値（true/false）のみを使用する制約テストケース
     - 例：BOOLC_0_pict.txtでは15個のパラメータ（Par0-Par14）が定義され、それぞれtrue/falseの値を取る
-- 複雑な論理制約（AND, OR, NOT）を含む
-    - UNIFORM_ALL シリーズ
+    - 複雑な論理制約（AND, OR, NOT）を含む
+- UNIFORM_ALL シリーズ
     - すべてのパラメータが同じ数の値を持つ均一なテストケース
     - 例：UNIFORM_ALL_0_pict.txtでは各パラメータが11個の値（PARx_0からPARx_10）を持つ
     - 制約が最小限で、パラメータ間の関係性が単純
