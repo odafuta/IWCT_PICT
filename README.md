@@ -28,19 +28,19 @@
 - MCA (Mixed Covering Array) シリーズ
     - 混合カバレッジ配列を使用したテストケース
     - 異なるタイプのパラメータ（数値、真偽値など）を組み合わせた制約
-    - MCAC (Mixed Covering Array with Constraints) シリーズ
+- MCAC (Mixed Covering Array with Constraints) シリーズ
     - MCAに追加の制約を加えたテストケース
     - より複雑な制約条件を持つ
 - NUMC (Numeric Constraints) シリーズ
     - 数値制約に焦点を当てたテストケース
     - 数値パラメータ間の関係性をテスト
-    - CNF (Conjunctive Normal Form) シリーズ
-- 論理式を連言標準形で表現したテストケース
+- CNF (Conjunctive Normal Form) シリーズ
+    - 論理式を連言標準形で表現したテストケース
     - 論理制約の標準的な形式を使用
-    - FM (Feature Model) シリーズ
+- FM (Feature Model) シリーズ
     - 機能モデルに基づくテストケース
-- 機能間の依存関係を表現
-    - FT (Fault Tree) シリーズ
+    - 機能間の依存関係を表現
+- FT (Fault Tree) シリーズ
     - 故障木分析に基づくテストケース
     - システムの故障シナリオを表現
 - HIGHLY_CONSTRAINED シリーズ
@@ -55,3 +55,10 @@
 - テストケースの規模
 
 これらのファイルは、組み合わせテストの様々なシナリオをカバーするためのベンチマークとして使用。Microsoft PICTツールを使用して、これらのファイルから効率的なテストケースを生成することができる。
+
+### 混合カバレッジ
+MCA (Mixed Covering Array) シリーズとMCAC (Mixed Covering Array with Constraints) シリーズのファイルが該当。
+混合カバレッジは、異なる型のパラメータを組み合わせたテストケースを効率的に生成する手法を指す。これは、実際のソフトウェアシステムでは様々な型のパラメータが存在することを考慮した、より実践的なテスト手法と言える。
+- 混合カバレッジの基本的な概念:
+    - 異なるタイプのパラメータ（数値、真偽値、列挙型など）を組み合わせたテストケースを生成する手法
+    - 各パラメータの型が「混合（Mixed）」している状態でのカバレッジを考慮
