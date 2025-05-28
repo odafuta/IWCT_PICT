@@ -1,0 +1,31 @@
+Par0 : false, true
+Par1 : PAR1_0, PAR1_1, PAR1_2, PAR1_3
+Par2 : false, true
+Par3 : false, true
+Par4 : false, true
+Par5 : false, true
+Par6 : false, true
+Par7 : PAR7_0, PAR7_1, PAR7_2, PAR7_3, PAR7_4, PAR7_5
+Par8 : false, true
+Par9 : PAR9_0, PAR9_1, PAR9_2, PAR9_3, PAR9_4, PAR9_5, PAR9_6, PAR9_7, PAR9_8, PAR9_9, PAR9_10, PAR9_11
+Par10 : false, true
+Par11 : PAR11_0, PAR11_1, PAR11_2, PAR11_3, PAR11_4, PAR11_5
+Par12 : false, true
+Par13 : PAR13_0, PAR13_1, PAR13_2, PAR13_3, PAR13_4, PAR13_5, PAR13_6, PAR13_7, PAR13_8
+Par14 : PAR14_0, PAR14_1
+Par15 : PAR15_0, PAR15_1, PAR15_2, PAR15_3, PAR15_4, PAR15_5, PAR15_6, PAR15_7
+Par16 : false, true
+Par17 : PAR17_0, PAR17_1, PAR17_2, PAR17_3, PAR17_4, PAR17_5, PAR17_6, PAR17_7, PAR17_8, PAR17_9, PAR17_10
+Par18 : false, true
+Par19 : false, true
+Par20 : PAR20_0, PAR20_1, PAR20_2, PAR20_3, PAR20_4, PAR20_5, PAR20_6, PAR20_7, PAR20_8, PAR20_9, PAR20_10, PAR20_11, PAR20_12
+Par21 : false, true
+Par22 : PAR22_0, PAR22_1, PAR22_2, PAR22_3, PAR22_4, PAR22_5, PAR22_6, PAR22_7, PAR22_8, PAR22_9, PAR22_10, PAR22_11, PAR22_12, PAR22_13, PAR22_14
+
+
+(([Par8]<>"false") AND ((NOT ([Par17]="PAR17_7")))) AND (([Par7]="PAR7_5") AND ([Par7]<>"PAR7_1"));
+((([Par22]<>"PAR22_4") OR ([Par16]="true")) AND (([Par14]="PAR14_0") OR ([Par15]="PAR15_4"))) AND ((((NOT ([Par15]<>"PAR15_1"))) OR ([Par6]<>"true")) AND (((NOT ([Par13]<>"PAR13_4"))) OR ([Par7]="PAR7_0")));
+(((NOT ([Par8]<>"true"))) AND ([Par20]<>"PAR20_5")) AND (((NOT ([Par9]<>"PAR9_9"))) AND ((NOT ([Par0]="false"))));
+((([Par1]="PAR1_0") AND ((NOT ([Par0]<>"true")))) AND (((NOT ([Par7]="PAR7_1"))) AND ([Par17]<>"PAR17_9"))) AND ((([Par8]<>"false") AND ((NOT ([Par5]<>"false")))) AND (((NOT ([Par8]<>"true"))) AND ([Par18]="true")));
+((([Par13]<>"PAR13_1") OR ((NOT ([Par2]="false")))) AND (([Par14]="PAR14_0") OR ((NOT ([Par10]="false"))))) AND ((((NOT ([Par3]="true"))) OR ((NOT ([Par4]="true")))) AND (((NOT ([Par20]="PAR20_10"))) OR ((NOT ([Par22]="PAR22_9")))));
+([Par14]<>"PAR14_0") AND ((NOT ([Par15]="PAR15_5")));
